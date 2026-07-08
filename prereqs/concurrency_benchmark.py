@@ -1,8 +1,4 @@
 """
-concurrency_benchmark.py
-
-Benchmarks Python's concurrency primitives on two different kinds of workloads:
-
   Part A: I/O-bound work  -> ThreadPoolExecutor (fetching URLs over the network)
   Part B: CPU-bound work  -> ProcessPoolExecutor (computing primes)
 
