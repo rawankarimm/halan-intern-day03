@@ -1,0 +1,18 @@
+{
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.parquet": "duckdb.dataFileViewer",
+        "*.csv": "duckdb.dataFileViewer",
+        "*.tsv": "duckdb.dataFileViewer",
+        "*.xlsx": "duckdb.dataFileViewer"
+    },
+    "duckdb.databases": [
+        {
+            "alias": "dev_database",
+            "type": "file",
+            "path": "c:\\Users\\rawan\\Halan\\internship\\my_duckdb_project\\dev_database.db",
+            "attached": true
+        }
+    ],
+    "duckdb.defaultDatabase": "memory"
+}
