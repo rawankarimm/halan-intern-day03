@@ -8,6 +8,10 @@ A small Python practice repository for learning project setup, dependency manage
 - prereqs/concurrency_benchmark.py - a benchmark script for threading and multiprocessing
 - pyproject.toml - project metadata and dependencies
 
+## Separate project: my_duckdb_project
+
+The folder my_duckdb_project is a separate project from the earlier starter scripts in this repository. It should be treated as its own workload with its own data requirements, rather than as part of the main.py or concurrency benchmark examples.
+
 ## Setup with uv
 
 This project is configured to use uv for dependency and environment management.
@@ -77,4 +81,7 @@ uv run python prereqs/concurrency_benchmark.py
 - If you need to refresh the environment after changing dependencies, run `uv sync` again.
 - If you want to inspect the current environment, use `uv pip list`.
 - If you are using a standard virtual environment instead of uv, you can still install dependencies with `pip install -e .`.
+
+- The folder my_duckdb_project is a separate project from the earlier starter scripts in this repository. It should be treated as its own workload with its own data requirements, rather than as part of the main.py or concurrency benchmark examples.
+The sample data file `paysim_sample.csv` is not included in this repository and must be obtained separately before running data-related workflows.
 
